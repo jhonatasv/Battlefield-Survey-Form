@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+html,
+body {
+  background-image: url("https://images2.alphacoders.com/706/thumb-1920-706162.jpg");
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  min-width: 320px;
+  margin: auto;
+  margin-top: -10px;
+  padding-top: 20px;
+  color: white;
+}
+
+#title {
+  color: #292828;
+}
+
+#description {
+  font-sizer: 18px;
+}
+
+#form-outer {
+  background-color: rgba(2, 2, 7, 0.5);
+  margin: auto;
+  border-radius: 10px;
+  width: 75%;
+  max-width: 750px;
+  padding: 10px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px rgba (110, 110, 91);
+  border-radius: 15px;
+}
+
+userAge {
+  width: 40px;
+}
+
+.userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+#submit {
+  background-color: #222222;
+  border-radius: 10px;
+  color: white;
+  fonte-sizer: 1rem;
+  height: 40px;
+  width: 96px;
+  margin: 2px;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #4a595e;
+}
+
+.dropdown {
+  height: 30px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  borde: 1px solid #60aba7;
+  border-radius: 12px;
+}
+
+.radio,
+.checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+a:hover {
+  color: #31c404;
+}
+
+.footer a {
+  color: white;
+}
+footer {
+  background-color: #150038;
+  padding: 0px;
+  margin: 0px;
+  color: fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-batween;
+  align-items: center;
+  text-align: center;
+}
+
+footer p {
+  font-family: "Montserrat";
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-right: 85px;
+}
+
+footer-icons {
+  display: flex;
+  width: 6%;
+  margin: auto;
+  margin-left: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
