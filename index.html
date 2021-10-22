@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - formulário de pesquisa</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+</head>
+<!-- començo do cabeçalhor -->
+<h1 id="title">Formulário de pesquisa de Battlefield</h1>
+<div id="form-outer">
+  <p id="description">só os guerreiros saberão responder</p>
+  <!-- Fim do cabeçalhor -->
+
+  <!-- Formulario de Nome, Email e Idade-->
+  <form id="survey-form">
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" for="name">* Nome: </label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="seu nome" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="email-label" for="email">* Email: </label>
+      </div>
+      <div class="rightTab">
+        <input type="email" name="email" id="email" class="input-field" placeholder="seu Email" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="number-label" for="age">* Idade: </label>
+      </div>
+      <div class="rightTab">
+        <input type="number" name="age" id="number" min="10" max="99" class="input-field" placeholder="idade" required>
+      </div>
+    </div>
+    <!-- Formulario de Nome, Email e Idade-->
+
+    <!-- Qual é seu personagem favorito?-->
+    <div class="rowTab">
+      <div class="labels">
+        <label for="favRole"> Qual é sua classe favorita?</label>
+      </div>
+      <div class="rightTab">
+        <select id="dropdown" name="currentPos" class="dropdown">
+          <option disabled value>Selecione uma opção</option>
+          <option value="Assault">Assault</option>
+          <option value="Medic" Medic</option>
+          <option value="Support">Support</option>
+          <option value="Recon">Recon</option>
+          <option value="brasil"> confia no pai😎</option>
+        </select>
+      </div>
+    </div>
+    <!--Qual é seu personagem favorito?-->
+
+    <!--recomendar Battlefield a seus amigo-->
+    <div class="rowTab">
+
+      <div class="labels">
+        <label for="userRating">* Qual é a probabilidade de você recomendar Battlefield a seus amigos?</label>
+      </div>
+      <div class="rightTab">
+        <ul style="list-style: none;">
+          <li class="radio"><label>Com certeza<input name="radio-buttons" value="1" type="radio" class="userRatings" required></label></li>
+          <li class="radio"><label>Talvez<input name="radio-buttons" value="2" type="radio" class="userRatings"></label></li>
+          <li class="radio"><label>Call Of Duty é melhor<input name="radio-buttons" value="3" type="radio" class="userRatings"></label></li>
+        </ul>
+      </div>
+    </div>
+    <!--recomendar Battlefield a seus amigo-->
+
+    <!--tivesse mais em Battlefield-->
+    <div class="rowTab">
+      <div class="labels">
+        <label for="most-like">* O que você mais gostaria que tivesse em Batllefiel:</label>
+      </div>
+      <div class="rightTab">
+        <select id="most-like" name="mostLike" class="dropdown" required>
+          <option disable selected value> selecione a opçâo</option>
+          <option value="servidores">compatibilidade entre os servidores</option>
+          <option value="futurista">Game mais futurista</option>
+          <option value="armas"> novas armas </option>
+          <option value="veículos">novos veículos </option>
+          <option value="campeonato">Campeonato</option>
+        </select>
+      </div>
+    </div>
+    <!--tivesse mais em Battlefield-->
+
+    <!--quais são os melhores Battlefield em sua opinião-->
+    <div class="rowTab">
+      <div class="labels">
+        <label for="preferences">* quais os melhores Battlefiel em sua opinião </label>
+      </div>
+
+      <div class="rightTab">
+        <ul id="preferences" style="list-style: none;">
+          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Battlefield 1</label></li>
+          <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="userRatings">Battlefield 3</label></li>
+          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Battlefield 4</label></li>
+          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Battlefield V</label></li>
+          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Battlefield Bad Company 2</label></li>
+          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRatings">Battlefield 1942</label></li>
+        </ul>
+      </div>
+    </div>
+    <!--tivesse mais em Battlefield-->
+
+    <!--Comentários-->
+    <div class="rowTab">
+      <div class="labels">
+        <label for="comments">Comentários:</label>
+      </div>
+      <div class="rightTab">
+        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="comentário aqui..."></textarea>
+      </div>
+    </div>
+    <button id="submit" type="submit">Enviar</button>
+  </form>
+</div>
+<!--Comentários-->
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
