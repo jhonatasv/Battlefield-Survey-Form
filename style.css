@@ -3,6 +3,8 @@
 html,
 body {
   background-image: url("https://images2.alphacoders.com/706/thumb-1920-706162.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
   font-family: "Poppins", sans-serif;
   min-width: 320px;
