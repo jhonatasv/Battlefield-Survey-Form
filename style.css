@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
 
+
+*{
+  border: none;
+}
 html,
 body {
   background-image: url("https://images2.alphacoders.com/706/thumb-1920-706162.jpg");
@@ -51,9 +55,8 @@ body {
 .input-field {
   height: 20px;
   width: 280px;
-  padding: 5px;
+  padding: 7px;
   margin: 10px;
-  border: 1px rgba (110, 110, 91);
   border-radius: 15px;
 }
 
@@ -64,8 +67,8 @@ input[type="checkbox"] {
 }
 
 .input-comment {
-  height:50px;
-  resize:vertical;
+  height: 60px;
+  resize: none;
 }
 
 #btn {
