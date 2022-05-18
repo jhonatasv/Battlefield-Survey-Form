@@ -4,10 +4,10 @@
 
 <hr>
 
-sobre: *Projeto do Curso de Design Responsivo para a Web da <a src="https://www.freecodecamp.org/">FreeCodeCamp</a>*
+sobre: *Projeto do Curso de Design Responsivo para a Web da <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>*
 
 <div align="center">
-    <img width="550px" src="https://user-images.githubusercontent.com/88457552/169076509-7ac72bfc-82cc-4bfb-8cee-ba4aae467bca.PNG">
+    <img width="550px" src="https://user-images.githubusercontent.com/88457552/169076509-7ac72bfc-82cc-4bfb-8cee-ba4aae467bca.PNG"> 
 </div>
 
 
