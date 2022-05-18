@@ -68,7 +68,7 @@
         <label for="userRating">* Qual é a probabilidade de você recomendar Battlefield a seus amigos?</label>
       </div>
       <div class="rightTab">
-        <ul style="list-style: none;">
+        <ul>
           <li class="radio"><label>Com certeza<input name="radio-buttons" value="1" type="radio" class="userRatings" required></label></li>
           <li class="radio"><label>Talvez<input name="radio-buttons" value="2" type="radio" class="userRatings"></label></li>
           <li class="radio"><label>Call Of Duty é melhor<input name="radio-buttons" value="3" type="radio" class="userRatings"></label></li>
@@ -102,7 +102,7 @@
       </div>
       
       <div class="rightTab">
-        <ul id="preferences" style="list-style: none;">
+        <ul id="preferences">
           <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Battlefield 1</label></li>
           <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="userRatings">Battlefield 3</label></li>
           <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Battlefield 4</label></li>
@@ -120,10 +120,10 @@
         <label for="comments">Comentários:</label>
       </div>
       <div class="rightTab">
-        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="comentário aqui..."></textarea>
+        <textarea id="comments" class="input-field input-comment" name="comment" placeholder="comentário aqui..."></textarea>
       </div>
     </div>
-    <button id="submit" type="submit">Enviar</button>
+    <button id="btn" type="submit">Enviar</button>
   </form>
 </div>
 <!--Comentários-->

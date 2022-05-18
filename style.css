@@ -11,7 +11,7 @@ body {
   margin: auto;
   margin-top: -10px;
   padding-top: 20px;
-  color: white;
+  color: #ffffff;
 }
 
 #title {
@@ -19,11 +19,11 @@ body {
 }
 
 #description {
-  font-sizer: 18px;
+  font-size: 18px;
 }
 
 #form-outer {
-  background-color: rgba(2, 2, 7, 0.5);
+  background-color: #02020780;
   margin: auto;
   border-radius: 10px;
   width: 75%;
@@ -57,29 +57,31 @@ body {
   border-radius: 15px;
 }
 
-userAge {
-  width: 40px;
-}
-
 .userRatings,
 input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
 
-#submit {
+.input-comment {
+  height:50px;
+  resize:vertical;
+}
+
+#btn {
   background-color: #222222;
   border-radius: 10px;
-  color: white;
-  fonte-sizer: 1rem;
+  color: #ffffff;
+  font-size: 1rem;
   height: 40px;
   width: 96px;
   margin: 2px;
   border: 0px solid;
   cursor: pointer;
+  transition: all 0.5s ease;
 }
 
-#submit:hover {
+#btn:hover {
   background-color: #4a595e;
 }
 
@@ -89,7 +91,7 @@ input[type="checkbox"] {
   padding: 5px;
   margin: 10px;
   margin-top: 15px;
-  borde: 1px solid #60aba7;
+  border: 1px solid #60aba7;
   border-radius: 12px;
 }
 
@@ -102,43 +104,6 @@ input[type="checkbox"] {
   padding-bottom: 10px;
 }
 
-a:hover {
-  color: #31c404;
-}
-
-.footer a {
-  color: white;
-}
-footer {
-  background-color: #150038;
-  padding: 0px;
-  margin: 0px;
-  color: fff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-batween;
-  align-items: center;
-  text-align: center;
-}
-
-footer p {
-  font-family: "Montserrat";
-  display: block;
-  width: 100%;
-  text-align: center;
-  color: white;
-  margin-right: 85px;
-}
-
-footer-icons {
-  display: flex;
-  width: 6%;
-  margin: auto;
-  margin-left: 10px;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 @media screen and (max-width: 833px) {
   .input-field {
     width: 80%;
@@ -148,7 +113,7 @@ footer-icons {
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 659px) {
   .labels {
     width: 100%;
     text-align: left;
